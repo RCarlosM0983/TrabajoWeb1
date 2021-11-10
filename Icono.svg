@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	x="0px" y="0px"
+	width="50.0px" height="50.0px"
+	viewBox="0 0 50.0 50.0"
+	enable-background="new 0 0 50.0 50.0"
+	xml:space="preserve">
+<defs>
+<filter id="glow2" x="-200%" y="-200%" width="600%" height="600%" >
+	<feOffset result="offOut" in="SourceGraphic" dx="0.9722287" dy="0.9722287" />
+	<feGaussianBlur result="blurOut" in="offOut" stdDeviation="0.081019066" />
+	<feFlood flood-color="#000000" flood-opacity="1.000" result="flood"/>
+	<feComposite in="flood" in2="blurOut" operator="in" result="blendOut0"/>
+	<feBlend in="SourceGraphic" in2="blendOut0" mode="normal" />
+</filter>
+
+<filter id="glow3" x="-200%" y="-200%" width="600%" height="600%" >
+	<feOffset result="offOut" in="SourceGraphic" dx="0.12" dy="0.12" />
+	<feGaussianBlur result="blurOut" in="offOut" stdDeviation="0.01" />
+	<feFlood flood-color="#000000" flood-opacity="1.000" result="flood"/>
+	<feComposite in="flood" in2="blurOut" operator="in" result="blendOut0"/>
+	<feBlend in="SourceGraphic" in2="blendOut0" mode="normal" />
+</filter>
+
+<filter id="glow6" x="-200%" y="-200%" width="600%" height="600%" >
+	<feOffset result="offOut" in="SourceGraphic" dx="0.9722289" dy="0.9722289" />
+	<feGaussianBlur result="blurOut" in="offOut" stdDeviation="0.08101907" />
+	<feFlood flood-color="#000000" flood-opacity="1.000" result="flood"/>
+	<feComposite in="flood" in2="blurOut" operator="in" result="blendOut0"/>
+	<feBlend in="SourceGraphic" in2="blendOut0" mode="normal" />
+</filter>
+
+<filter id="glow7" x="-200%" y="-200%" width="600%" height="600%" >
+	<feOffset result="offOut" in="SourceGraphic" dx="0.12" dy="0.12" />
+	<feGaussianBlur result="blurOut" in="offOut" stdDeviation="0.01" />
+	<feFlood flood-color="#000000" flood-opacity="1.000" result="flood"/>
+	<feComposite in="flood" in2="blurOut" operator="in" result="blendOut0"/>
+	<feBlend in="SourceGraphic" in2="blendOut0" mode="normal" />
+</filter>
+
+<filter id="glow8" x="-200%" y="-200%" width="600%" height="600%" >
+	<feOffset result="offOut" in="SourceGraphic" dx="0.6674579" dy="0.6674579" />
+	<feGaussianBlur result="blurOut" in="offOut" stdDeviation="0.05562149" />
+	<feFlood flood-color="#000000" flood-opacity="1.000" result="flood"/>
+	<feComposite in="flood" in2="blurOut" operator="in" result="blendOut0"/>
+	<feBlend in="SourceGraphic" in2="blendOut0" mode="normal" />
+</filter>
+
+</defs>
+	<path
+		fill="#16FF34"
+		stroke="#000000"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.5"
+		filter="url(#glow2)"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M26.18,19.63Q12.68,19.63,13.93,40.88L26.18,40.88"/>
+	<path
+		fill="#16FF34"
+		stroke="#000000"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.5"
+		filter="url(#glow3)"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M20.00,40.75L20.00,31.50"/>
+	<path
+		fill="#16FF34"
+		stroke="#000000"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.5"
+		filter="url(#glow6)"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M26.07,19.63Q39.57,19.63,38.32,40.88L26.07,40.88"/>
+	<path
+		fill="#16FF34"
+		stroke="#000000"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.5"
+		filter="url(#glow7)"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M32.25,40.75L32.25,31.50"/>
+	<path
+		fill="#16FF34"
+		stroke="#000000"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="0.5"
+		filter="url(#glow8)"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M26.25,7.75C29.36,7.75,31.88,10.21,31.88,13.25C31.88,16.29,29.36,18.75,26.25,18.75C23.14,18.75,20.63,16.29,20.63,13.25C20.63,10.21,23.14,7.75,26.25,7.75z"/>
+</svg>

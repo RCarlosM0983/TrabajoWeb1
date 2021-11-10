@@ -1,0 +1,274 @@
+body {
+  background-color: rgb(230, 230, 230)
+  
+}
+
+header {
+  width: 100%;
+  height: 110px;
+  background:rgb(82, 136, 133);
+  background-attachment: fixed;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+ img {
+  width: 160px;
+  height: 100px; 
+} 
+div.logo {
+  float: left;
+  width: 25%;
+  height: 110px;
+  margin-top: 0%;
+  padding-left: 20px;
+}
+
+.descripcion{
+  color: #3dff00;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  width: 300px;
+  margin-left: 35px;
+  margin-top: 0px;
+  padding-top: 75px;
+}
+p{
+  font-size: 120%;
+}
+ ul a:link, ul a:visited {
+  color:#3dff00;
+  margin: 10px;
+  text-decoration: none;
+  float:right;
+}
+#regis {
+  background-color: transparent;
+  border: none;
+  font-size: x-large;
+  color:#3dff00;
+  margin: 10px;
+  text-decoration: none;
+  float:right;
+}
+ div.menu  {
+  font-size: x-large;
+  height: 110px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu ul {
+  display: inline;
+  padding-left: 0px;
+  list-style: none;
+}
+.menu a:hover, .menu a:active {
+  color:white;
+  cursor: pointer;
+}
+.registro:hover, .registro:active {
+  color:white;
+  cursor: pointer;
+}
+.columna2 a:link, .columna2 a:visited{
+  color: black;
+}
+.columna2 a:hover, .columna2 a:active {
+  color: white;
+}
+.columna2 span{
+  font-style:oblique;
+}
+.columna1 span{
+  font-style: oblique;
+}
+.registro{
+  width: 25%;
+  height: 110px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+}
+#regis:hover, #regis:active{
+  color:white;
+  cursor: pointer;
+  
+}
+  
+div.fondo{
+  background-image: url("imagenes/fondo_body.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height:700px;
+  margin-top: 120px;
+  padding-top: 0%;
+}
+footer {
+  height: 170px;
+  background:rgb(82, 136, 133);
+  display: flex;
+}
+div.columna1 {
+  padding-bottom: 30px;
+  padding-left: 40px;
+  width: 50%;
+}
+div.columna2 {
+  padding-left: 40px;
+  width: 50%;
+}
+.fa-facebook:before {
+  color: #0000bd;
+  font-size: x-large;
+}
+.fa-instagram:before {
+  color: red;
+  font-size: x-large;
+}
+.fa-twitter:before {
+  color: turquoise;
+  font-size: x-large;
+}
+.fa-map-marker-alt:before {
+  font-size: x-large;
+  content: "\f3c5";
+  color: turquoise;
+}
+.fa-phone-square-alt:before {
+  color: green;
+  font-size: x-large;
+}
+.fa-envelope-square:before {
+  font-size: x-large;
+  color: turquoise;
+}
+.fa-whatsapp-square:before {
+  color: green;
+  font-size: x-large;
+}
+/*////////////////////
+FORMULARIO
+////////////////////*/
+.principalF{
+  background-color: rgba(46, 47, 48, 0.815);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.principalLR{
+  background-color: rgba(46, 47, 48, 0.815);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.secundarioLR{
+  background-color: rgb(230, 230, 230);
+  padding: 25px;
+  width: 35%;
+  border-radius: 5px;
+  position: relative;
+  border: 1px solid grey;
+}
+.principalF h1{
+  
+  text-align: center;
+}
+.principalLR h1{
+  text-align: center;
+}
+.secundarioLR ul {
+  display: inline;
+}
+.formul{
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 25%;
+}
+#errores{
+  width: 100%;
+  margin: auto;
+}
+form{
+  border-radius: 5px;
+  position: relative;
+  background-color: white;
+  width: 100%;
+  border: 1px solid grey;
+  margin: auto;
+  padding: 20px;
+}
+label{
+  display: block;
+}
+input, textarea{
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid black;
+}
+input:focus{
+  border: 1px solid rgb(64, 32, 247);
+}
+#boton{
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 28px;
+  background-color: rgba(71, 71, 255, 0.973);
+}
+#boton:hover {
+  background-color: rgba(124, 124, 253, 0.973);
+}
+#cerrarF{
+  border-radius: 5px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 15px;
+  right: 15px;
+  background-color: red;
+  color: white;
+}
+#cerrarF{
+  background-color: rgb(252, 87, 87);
+}
+#cerrarL{
+  border-radius: 5px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 15px;
+  right: 15px;
+  background-color: red;
+  color: white;
+}
+#cerrarL:hover{
+  background-color: rgb(252, 87, 87);
+}
+.formul ul {
+  color: red;
+  display: inline;
+  padding-left: 0px;
+}
+#divError{
+  padding-left: 10px;
+  padding-top: 30px;
+}
